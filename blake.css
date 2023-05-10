@@ -170,7 +170,7 @@ audio {margin-top: 1em; display: block;width:500px;}
         background-color: #231814;
         min-width: 600px;
         max-width: 1280px; 
-        box-shadow: 5px solid #4d3423;
+        box-shadow: 5px #4d3423;
         padding: 0;
     }
 
@@ -194,7 +194,7 @@ audio {margin-top: 1em; display: block;width:500px;}
     th,td {padding:10px;} 
     tr:nth-of-type(odd){background-color:#d2b48c;}       /*  ttps://www.youtube.com/watch?v=a22By5pJ68E used this for refernce on the css*/
 form{padding:2em;}
-label {float: leftl; display:block;text-align:right; width:8em;padding-right:1em;}
+label {float: left; display:block;text-align:right; width:8em;padding-right:1em;}
 input,textarea{display:block;margin-bottom:1em;}
 #mySubmit {margin-left:9.5em;}
 /* mobile */
@@ -555,7 +555,7 @@ input,textarea{display:block;margin-bottom:1em;}
         background-color: #247ff6;
         min-width: 900px;
         max-width: 1280px;
-        box-shadow: 5px solid #4d3423;
+        box-shadow: 5px #4d3423;
         padding: 0;
     }
 
