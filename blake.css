@@ -1,19 +1,7 @@
+
 audio {margin-top: 1em; display: block;width:500px;}
 /* half screen */
   @media (min-width:600px){
-    #herocouch{
-        background-image: url(img/herocouch.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 300px;
-    }
-    .item{
-        background-color: #faf9f7;
-        margin: 1em;
-        padding: 1em;
-        overflow: auto;
-        float: right;
-    }
     body {
         background-image: url(img/background.jpg);
         background-repeat: no-repeat;
@@ -28,8 +16,8 @@ audio {margin-top: 1em; display: block;width:500px;}
         height: 128px;
         background-repeat: no-repeat;
         text-align:center;
-        background-color: #04b8ef;
-        color: #231814;
+        background-color: #247ff6;
+        color: #090909;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 0px;
@@ -62,8 +50,7 @@ audio {margin-top: 1em; display: block;width:500px;}
     }
 
     h4 {
-        background-color: #7F5539;
-        color:#DDBEA9;
+        background-color: #000000;
         font-size: 1.2em;
         padding-left: .5em;
         padding-bottom: 0;
@@ -109,14 +96,14 @@ audio {margin-top: 1em; display: block;width:500px;}
         padding-top: 0;
         padding-bottom: 20%;
         display: block;
-        background-color: #fef6c2;
+        background-color: #247ff6;
 
     }
 
     footer {
         text-align:center;
-        background-color: #9C6644;
-        color: #4d3423;
+        background-color: #247ff6;
+        color: #000000;
         font-size: .6em;
         font-style: italic;
         border-top: 2px solid #4d3423;
@@ -127,39 +114,23 @@ audio {margin-top: 1em; display: block;width:500px;}
         padding-left: 3em;
         padding-right: 2em;
     }
-
-    .details {
-        padding-left: 20%;
-        padding-right: 20%;
-        overflow: auto;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #guitarhero {
-        background-image: url(img/heroguitar.jpg);
-        background-size: cover;
-        height:300px;
-        background-repeat: no-repeat;
-    }
-
-    #homehero {
-        background-image: url(img/hero.jpg);
+    #homepic {
+        background-image: url(img/homepic.jpg);
         height:50vh;
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 
-    #heromugs {
-        background-image: url(img/heromugs.jpg);
+    #project {
+        background-image: url(img/projectpic.jpg);
         height:250px;
         background-size: contain;
         background-repeat: no-repeat;
     }
-
-    #heroguitar {
-        background-image: url(img/heroguitar.jpg);
-        background-size: 100% 100%;
+    #contact {
+        background-image: url(img/contact.jpg);
+        height:250px;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
@@ -167,16 +138,10 @@ audio {margin-top: 1em; display: block;width:500px;}
         margin-right: auto;
         margin-left: auto;
         width: 80%;
-        background-color: #231814;
+        background-color: #247ff6;
         min-width: 600px;
         max-width: 1280px; 
         padding: 0;
-    }
-
-    #flow {
-        padding-left:10px;
-        display: flex;
-        flex-direction: row;
     }
 
     #mobile {
@@ -187,30 +152,10 @@ audio {margin-top: 1em; display: block;width:500px;}
         display: inline;
     }
 }
- table{width:90%; margin: auto;
-    border-spacing:0;
-    background-color:#D2B48E;}
-    th,td {padding:10px;} 
-    tr:nth-of-type(odd){background-color:#d2b48c;}       /*  ttps://www.youtube.com/watch?v=a22By5pJ68E used this for refernce on the css*/
-form{padding:2em;}
-label {float: left; display:block;text-align:right; width:8em;padding-right:1em;}
-input,textarea{display:block;margin-bottom:1em;}
+
 #mySubmit {margin-left:9.5em;}
 /* mobile */
 @media (max-width:600px){
-    #herocouch{
-        background-image: url(img/herocouch.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 300px;
-    }
-    .item{
-        background-color: #faf9f7;
-        margin: 1em;
-        padding: 1em;
-        overflow: auto;
-        float: right;
-    }
     body {
         color: #000000;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -222,8 +167,8 @@ input,textarea{display:block;margin-bottom:1em;}
         background-image: url(img/cup.jpg);
         background-repeat: no-repeat;
         height: 128px;
-        background-color: #d2b48c;
-        color: #231814;
+        background-color: #247ff6;
+        color: #000000;
         padding-top: 5px;
         padding-left: 105px;
     }
@@ -243,20 +188,20 @@ input,textarea{display:block;margin-bottom:1em;}
     }
 
     h2{
-        color:#7F5539;
+        color:#000000;
     }
 
     h3 {
-        color:#4d3423;
+        color:#000000;
     }
 
     dt {
-        color:#4d3423;
+        color:#000000;
     }
 
     h4 {
-        background-color: #7F5539;
-        color:#DDBEA9;
+        background-color: #000000;
+        color:#000000;
         font-size: 1.2em;
         padding-left: .5em;
         padding-bottom: 0;
@@ -296,13 +241,13 @@ input,textarea{display:block;margin-bottom:1em;}
         padding-top: 0;
         padding-bottom: 20%;
         display: block;
-        background-color: #fef6c2;
+        background-color: #247ff6;
     }
 
     footer {
         text-align:center;
-        background-color: #9C6644;
-        color: #4d3423;
+        background-color: #247ff6;
+        color: var(--bs-gray-800);
         font-size: .6em;
         font-style: italic;
         border-top: 2px solid #4d3423;
@@ -318,45 +263,28 @@ input,textarea{display:block;margin-bottom:1em;}
         padding-left: 2em;
     }
 
-    .details {
-        padding-left: 20%;
-        padding-right: 20%;
-        overflow: auto;
-    }
-
-    #imgs {
-        padding-right: 1em;
-    }
-
-    #guitarhero {
-        background-image: url(img/guitar.jpg);
-        background-size: cover;
-        height:300px;
-        background-repeat: no-repeat;
-    }
-
-    #homehero {
-        background-image: url(img/road.jpg);
+    #homepic {
+        background-image: url(img/homepic.jpg);
         height:300px;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    #heromugs {
-        background-image: url(img/threemugs.jpg);
+    #project {
+        background-image: url(img/projectpic.jpg);
+        height:250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contact {
+        background-image: url(img/contact.jpg);
         height:250px;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    #heroguitar {
-        background-image: url(img/heroguitar.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
-
     #wrapper {
-        background-color: #231814;
+        background-color: #247ff6;
         padding: 0;
     }
 
@@ -373,19 +301,6 @@ input,textarea{display:block;margin-bottom:1em;}
 
 /* desktop */
 @media(min-width:1024px){
-    #herocouch{
-        background-image: url(img/herocouch.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 300px;
-    }
-    .item{
-        background-color: #faf9f7;
-        margin: 1em;
-        padding: 1em;
-        overflow: auto;
-        float: right;
-    }
     body {
         background-image: url(img/background.jpg);
         background-repeat: no-repeat;
@@ -477,7 +392,7 @@ input,textarea{display:block;margin-bottom:1em;}
     footer {
         text-align:center;
         background-color: #247ff6;
-        color: #000000;
+        color: var(--bs-gray-800);
         font-size: .6em;
         font-style: italic;
         border-top: 2px solid #4d3423;
@@ -489,37 +404,19 @@ input,textarea{display:block;margin-bottom:1em;}
         padding-right: 2em;
     }
 
-    .details {
-        padding-left: 20%;
-        padding-right: 20%;
-        overflow: auto;
-    }
-
     .floatleft {
         float: left;
         padding-bottom: 2em;
     }
 
-    .onethird {
-        float: left;
-        width: 33%;
-    }
-
-    #guitarhero {
-        background-image: url(img/heroguitar.jpg);
-        background-size: cover;
-        height:300px;
-        background-repeat: no-repeat;
-    }
-
-    #homehero {
+    #homepic {
         background-image: url(img/homepic.jpg);
         height:300px;
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 
-    #heromugs {
+    #project {
         background-image: url(img/projectpic.jpg);
         height:250px;
         background-size: cover;
@@ -532,17 +429,10 @@ input,textarea{display:block;margin-bottom:1em;}
         background-repeat: no-repeat;
     }
 
-    #mughero {
+    #logo {
         background-image: url(img/logo.jpg);
         height: 150px;
         background-size:contain;
-        background-repeat: no-repeat;
-    }
-
-
-    #heroguitar {
-        background-image: url(img/heroguitar.jpg);
-        background-size: 100% 100%;
         background-repeat: no-repeat;
     }
 
