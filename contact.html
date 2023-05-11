@@ -23,14 +23,16 @@
             <main>
                 <div id = "contact"></div>
                 <h2>Contact Me</h2>
-                <p>If you would like to contact me about a project enter in your name and email and I will get back to you as soon as possible</p>
+                <p>If you would like to contact me about a project you can send a message with your name and email and I will get back to you as soon as possible</p>
                 <form name="submit-to-google-sheet">
                     <input name="email" type="email" placeholder="Email" required>
+                    <input name="name" type="text" placeholder="Name" required>
+                    <input name="message" type="text" placeholder="Message" required>
                     <button type="submit">Send</button>
                   </form>
                   
                   <script>
-                    const scriptURL = 'https://script.google.com/macros/s/AKfycbxeUNI5wiv_1yX_CxJbyb4ih5lZ0kbb4WEDziX7S8PMaEwC7nv9wHlgD1Qt_Uqgs8nO6A/exec'
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbyPVzw2AqG4QFebmFF0DwG_z7Eu6MflzK3_mJzJw_edlgL3pDfVd5_qVfXSALAnteKd/exec'
                     const form = document.forms['submit-to-google-sheet']
                   
                     form.addEventListener('submit', e => {
